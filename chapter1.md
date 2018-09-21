@@ -81,14 +81,11 @@ black
 ... you should know!
 
 `@pre_exercise_code`
-
 ```{r}
 print("toto")
 ```
 
-
 `@sct`
-
 ```{r}
 print("blue")
 ```
