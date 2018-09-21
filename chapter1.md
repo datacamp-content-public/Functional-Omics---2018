@@ -58,3 +58,37 @@ The Instructions that follow should be in bullet point form with clear guidance 
 # Update this to something more informative.
 success_msg("Some praise! Then reinforce a learning objective from the exercise.")
 ```
+
+---
+
+## Insert exercise title here
+
+```yaml
+type: MultipleChoiceExercise
+key: ede91c9c3d
+xp: 50
+```
+
+What's the color of the sky?
+
+`@instructions`
+yellow
+green
+blue
+black
+
+`@hint`
+... you should know!
+
+`@pre_exercise_code`
+
+```{r}
+print("toto")
+```
+
+
+`@sct`
+
+```{r}
+print("blue")
+```
